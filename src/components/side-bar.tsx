@@ -9,6 +9,7 @@ const SideBar: React.FC = () => {
 					alt="logo"
 					width={110}
 					height={110}
+					className="rounded-full"
 				/>
 				<span className="rounded uppercase text-white">Iuri Silva</span>
 			</div>

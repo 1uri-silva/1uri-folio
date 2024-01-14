@@ -19,10 +19,7 @@ const Experience: React.FC = () => {
 						jul/2021 - ago/2021
 					</span>
 					<p className="text-start font-bold text-sm text-[#68686b]">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsa,
-						fuga distinctio illo et beatae expedita recusandae earum non
-						perspiciatis tempora accusantium, mollitia eum saepe dicta facere
-						nisi ipsam cupiditate?
+						Desenvolvimento de app para busca de prestadores de serviços próximo ao local da pessoa que fez a solicitação de serviço.
 					</p>
 				</li>
 				<li className="flex flex-col gap-2">
@@ -33,10 +30,7 @@ const Experience: React.FC = () => {
 						oct/2021 - abr/2022
 					</span>
 					<p className="text-start font-bold text-sm text-[#68686b]">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsa,
-						fuga distinctio illo et beatae expedita recusandae earum non
-						perspiciatis tempora accusantium, mollitia eum saepe dicta facere
-						nisi ipsam cupiditate?
+						Desenvolvimento de app para negociação de insumos agrícolas com base na Bolsa de valores Agrícolas.
 					</p>
 				</li>
 			</ul>

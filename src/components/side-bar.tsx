@@ -2,7 +2,7 @@ import { LinkedinIcon, MailIcon, MapPinIcon } from "lucide-react";
 
 const SideBar: React.FC = () => {
 	return (
-		<aside className=" w-52 h-80 flex flex-col justify-center items-center bg-[#1E1E1F] rounded-xl border-2 border-[#282828]">
+		<aside className="w-52 h-80 flex flex-col justify-center items-center bg-[#1E1E1F] rounded-xl border-2 border-[#282828] tablet:ml-5">
 			<div className="w-full flex flex-col items-center gap-y-5">
 				<img
 					src="https://github.com/1uri-silva.png"
@@ -31,7 +31,9 @@ const SideBar: React.FC = () => {
 				</a>
 				<div className="group flex flex-col justify-center items-center">
 					<MapPinIcon color="#fff" />
-					<span className="text-white hidden group-hover:block">Brasilia-Df</span>
+					<span className="text-white hidden group-hover:block">
+						Brasilia-Df
+					</span>
 				</div>
 			</div>
 		</aside>

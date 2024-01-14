@@ -4,10 +4,10 @@ import { SideBar } from "../components/side-bar";
 
 export default function Home() {
 	return (
-		<div className="flex flex-row justify-center max-w-full min-h-full bg-[#121212] py-8">
+		<div className="flex flex-1 flex-col justify-center items-center max-w-full min-h-full bg-[#121212] py-8 tablet:flex-row tablet:items-start">
 			<SideBar />
 
-			<main className="bg-[#1E1E1F] w-[45rem] rounded-xl mx-8 pl-5 border-2 border-[#282828] mb-8">
+			<main className="w-[25rem] bg-[#1E1E1F] rounded-xl mx-8 pl-5 border-2 border-[#282828] mt-8 tablet:w-[45rem] tablet:mb-8 tablet:mt-0">
 				<Header />
 
 				<p className="text-[#8F8F8F] text-sm text-start">
@@ -39,7 +39,7 @@ export default function Home() {
 						O que eu faço
 					</strong>
 
-						<Doing />
+					<Doing />
 				</section>
 			</main>
 		</div>

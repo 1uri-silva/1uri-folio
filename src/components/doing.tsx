@@ -6,7 +6,7 @@ import {
 
 const Doing: React.FC = () => {
 	return (
-		<ul className="grid grid-cols-2 gap-3 mt-3">
+		<ul className="grid grid-rows-1 gap-3 mt-3 tablet:grid-cols-2">
 			<li className="h-32 flex flex-row justify-center items-center mx-3 bg-[#212123] rounded-lg border-2 border-[#2C2C2C]">
 				<FileDigitIcon size={30} color="#998148" />
 				<div className="flex flex-col ml-3 w-64 h-24">
